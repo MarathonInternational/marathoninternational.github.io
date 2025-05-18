@@ -64,7 +64,17 @@
     </div>
   </div>
 </div>
-<section> <img src="assets/img/marathon-website-home-page.jpg"> </section>
+<section> 
+<!-- <img src="assets/img/marathon-website-home-page.jpg"> // old line of code -->
+  <picture>
+    <source srcset="assets/img/Marathon-Wallpaper-02.jpg" media="(min-width: 300px) and (max-width: 700px)">
+  <source srcset="assets/img/marathon-website-home-page.jpg" media="(max-width: 860px)">
+    <source srcset="assets/img/Marathon-Wallpaper-01.jpg" media="(max-width: 900px)">
+       <source srcset="assets/img/Marathon-Wallpaper-01.jpg" media="(max-width: 1500px)">
+    <source srcset="assets/img/Marathon-Wallpaper-01.jpg">
+    <img src="assets/img/Marathon-Wallpaper-01.jpg" alt="Flowers">
+  </picture>  
+</section>
 <section class="box-area pb-70">
   <div class="container">
     <div class="row">
